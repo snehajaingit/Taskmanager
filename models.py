@@ -3,7 +3,7 @@ class Task:
         self.title = title
         self.description = description
         self.due_date = due_date
-        self.completed = False
+        self.completed = completed
 
     def mark_complete(self):
         self.completed = True
